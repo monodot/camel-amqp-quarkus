@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/camel-quarkus-amqp .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/camel-amqp-quarkus .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/camel-quarkus-amqp
+# docker run -i --rm -p 8080:8080 quarkus/camel-amqp-quarkus
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1
